@@ -1,0 +1,10 @@
+.container {
+    width: 35%;
+    height: 265px;
+}
+
+.btnStart {
+    width: 71%;
+    height: 55px;
+    font-size: 3rem;
+}

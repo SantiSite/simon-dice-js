@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #dedede;
+}
+
+.gameBoard {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: auto;
+}
+
+.container {
+    width: 45%;
+    height: 125px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.light {
+    transform: scale(1.05);
+}
+
+.blue {
+    background: #22a6b3;
+    border-top-left-radius: 100%;
+    box-shadow: 0 0 5px 4px rgba(64, 71, 71, 0.8);
+}
+
+.blue.light {
+    background: #7ed6df;
+}
+
+.violet {
+    background: #ae41c5;
+    border-top-right-radius: 100%;
+    box-shadow: 0 0 5px 4px rgba(64, 71, 71, 0.8);
+}
+
+.violet.light {
+    background: #e056fdb0;
+}
+
+.orange {
+    background: #f0932b;
+    border-bottom-left-radius: 100%;
+    box-shadow: 0 0 5px 4px rgba(64, 71, 71, 0.8);
+}
+
+.orange.light {
+    background: #ffbe76;
+}
+
+.green {
+    background: #6ab04c;
+    border-bottom-right-radius: 100%;
+    box-shadow: 0 0 5px 4px rgba(64, 71, 71, 0.8);
+}
+
+.green.light {
+    background: #badc58;
+}
+
+.btnStart {
+    position: absolute;
+    width: 91%;
+    height: 47px;
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.hide {
+    display: none;
+}

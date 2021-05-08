@@ -1,0 +1,12 @@
+.gameBoard {
+    width: 428px;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+}
+
+.btnStart {
+    width: 94%;
+}

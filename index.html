@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Simon Dice</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width:375px)" href="css/stylesMobileM.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width:425px)" href="css/stylesMobileL.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width:768px)" href="css/stylesTablets.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width:1024px)" href="css/stylesDesktop.css" />
+    </head>
+    <body>
+        <div class="gameBoard">
+            <div id="blue" class="container blue" data-color="blue"></div>
+            <div id="violet" class="container violet" data-color="violet"></div>
+            <div id="orange" class="container orange" data-color="orange"></div>
+            <div id="green" class="container green" data-color="green"></div>
+            <button id="btnStart" class="btnStart" type="button" onclick="startGame()">¡Empezar a jugar!</button>
+        </div>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script type="text/javascript" src="js/game.js"></script>
+    </body>
+</html>
